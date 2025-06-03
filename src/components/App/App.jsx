@@ -134,7 +134,7 @@ function App() {
 
         {showBottomExplosion && (
           <div className="bottom-explosion">
-            <img src="../../../images/explosion.gif" alt="Explosion" />
+            <img src="images/explosion.gif" alt="Explosion" />
           </div>
           )}
       </div>
