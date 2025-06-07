@@ -27,12 +27,12 @@
     transition: 500ms ease-in-out;
 }
 
-.button:disabled {
+.button: disabled {
     background-color: gray;
     cursor: not-allowed;
 }
 
-.button:hover:not(:disabled) {
+.button: hover {
     background-color: #0d6aff;
     color: #fff;
 }
@@ -50,7 +50,7 @@
 /* Progress Bar Fill */
 .progress-fill {
     height: 100%;
-    background-color: #747bff;
+    background-color: #0d6aff;
     width: 0%;
     transition: width 10s linear;
 }
