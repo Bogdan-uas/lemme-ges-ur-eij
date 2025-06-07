@@ -27,12 +27,12 @@
     transition: 500ms ease-in-out;
 }
 
-.button: disabled {
+.button:disabled {
     background-color: gray;
     cursor: not-allowed;
 }
 
-.button: hover {
+.button:hover:not(:disabled) {
     background-color: #0d6aff;
     color: #fff;
 }
